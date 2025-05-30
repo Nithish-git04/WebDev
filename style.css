@@ -282,6 +282,17 @@ ul{
     h1, h2, h3{
         font-size: 30px;
     }
+
+    article ul, fieldset ul{
+        list-style-position: inside;
+        padding: 0;
+        text-align: center;
+    }
+
+    article li, fieldset li {
+        text-align: center;
+    }
+
     body {
         font-size: 20px;
         padding: 10px;
