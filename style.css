@@ -336,4 +336,9 @@ ul{
         width: 150px;
         height: 150px;
     }
+
+    #exception_4{
+        margin: 0 auto;
+        text-align: center;
+    }
 }
