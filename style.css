@@ -299,6 +299,7 @@ ul{
     }
 
     article li, fieldset li {
+        margin: 0 auto;
         text-align: center;
     }
 
