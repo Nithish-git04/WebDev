@@ -23,7 +23,7 @@ a:hover {
 table {
     border-collapse: collapse;
     width: 50%;
-    margin: 10% auto;
+    margin: 10px auto;
     font-family: 'Poppins', sans-serif;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
@@ -52,7 +52,7 @@ tfoot {
 
 table, th, td {
     border: 1px solid #ccc;
-    padding: 4%;
+    padding: 1%;
     text-align: center;
 }
 
@@ -82,8 +82,8 @@ article, fieldset {
     padding: 10px;
     border-radius: 10px;
     margin: 0 auto;
-    width: 90%;
-    max-width: 801px;
+    width: 95%;
+    /* max-width: 2000px; */
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
@@ -94,6 +94,7 @@ button:hover {
 }
 
 hr {
+    width: 95%;
     height: 2px;
     background-color: rgb(238, 238, 238, 0.2);
     box-shadow: 2px 2px 8px grey; 
@@ -277,7 +278,8 @@ ul{
     margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
+/*
+@media (max-width: 500px) {
 
     h1, h2, h3{
         font-size: 30px;
@@ -296,14 +298,18 @@ ul{
         text-align: center;
     }
 
-    fieldset, article {
+    fieldset{
         text-align: center;
         max-width: 100%;
         width: 90%;
         margin: 0 auto;
-        /* padding: 20px; */
-
+        padding: 20px; 
     }
+
+    article {
+        max-width: 1000px;
+        margin: 0 auto;
+    }    
 
     article li, fieldset li {
         margin: 0 auto;
@@ -311,6 +317,7 @@ ul{
     }
 
     body {
+        margin: 0 auto;
         font-size: 20px;
         padding: 10px;
     }
@@ -343,3 +350,4 @@ ul{
         text-align: center;
     }
 }
+*/
