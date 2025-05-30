@@ -289,6 +289,15 @@ ul{
         text-align: center;
     }
 
+    fieldset, article {
+        text-align: center;
+        max-width: 100%;
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+
+    }
+
     article li, fieldset li {
         text-align: center;
     }
