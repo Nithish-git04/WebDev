@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Things I learnt from the videos">
+        <link rel="icon" href="profile.jpg">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <title>Page about myself</title>
+        <script src="index.js"></script>
+    </head>
+    <body>
+
+        <article id="home">
+            <h1>NITHISH THANIGAIVEL</h1>
+            <img src="profile.jpg" width="200" height="200" id="profile-pic" alt="Nithish Thanigaivel" loading="lazy">
+            
+            
+            <p>Welcome to my first webpage! Here, you can learn more about me, the projects I've worked on and how to contact me.</p>
+            
+            <p>This page contains the follows.</p>
+    
+            <table>
+                <caption>Table of Contents</caption>
+                <thead>
+                    <tr>
+                        <th>Section</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">About Me</td>
+                        <td>Introduction</td>
+                    </tr>
+                    <tr>
+                        <td>My hobbies and interests</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Career History</td>
+                        <td>My Education</td>
+                    </tr>
+                    <tr>
+                        <td>Projects</td>
+                    </tr>
+                    <tr>
+                        <td>Future Goals</td>
+                    </tr>
+                    <tr>
+                        <td>Contact Me</td>
+                        <td>Ways to contact me</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="2">This table provides an overview of the content on this page</td>
+                </tfoot>
+            </table>
+
+        </article>
+
+            <nav id="top-nav">
+                <a href="#home" class="btn-top-nav">Home</a>
+                <a href="#me" class="btn-top-nav">About Me</a>
+                <a href="#car" class="btn-top-nav">Career</a>
+                <a href="#con" class="btn-top-nav">Contact</a>
+            </nav>
+
+
+        <hr>
+
+        <article id ="me">
+            <h2>About Myself:</h2>
+            <p>My name is Nithish Thanigaivel and I'm from Chennai, Tamil Nadu.</p>
+
+            <aside>
+                <h3>My Hobbies:</h3>
+                <ul>
+                    <li>Coding</li>
+                    <li>Reading Mangas, Manhwa and Light Novels</li>
+                    <li>Watching Anime</li>
+                    <li>Speed cubing</li>
+                </ul>
+                <p>My favorite anime is <strong>Haikyu!</strong>.</p>
+                <p>I am currently learning web development and I have created this webpage as a part of my learning journey.</p>
+            </aside>
+        </article>
+
+        <hr>
+
+        <article id="car">
+            <h2>Career History:</h2>
+            <h3>My Education:</h3>
+            <dl>
+                <div class="school" id="exception1  ">
+                    <dt><abbr title ="Shree Niketan Patasala" class="edu_inst">SNP</abbr></dt>
+                </div> 
+                <dd>A school in my hometown where I completed till my 8th grade.</dd>
+                <div id="image_exception"><a href="https://www.shreeniketanschools.org/"><img id="school1" src="snp1.jpg" alt="Shree Niketan Patasala"></a></div>
+                <div class="school" id="exception2">
+                    <dt id="exception3"><abbr title="Maharishi International Residential School" class="edu_inst">MIRS</abbr></dt>
+                    <dd>A residential school in Kanchipuram where I completed till 12th grade.</dd>
+                    <img id="school2" src="mirs.png" alt="MIRS">
+                </div>
+                <div class="school">
+                    <dt><abbr title="Birla Institute of Technology and Science, Pilani" class="edu_inst">BITS Pilani</abbr></dt>
+                </div>
+                <dd>My current college where I'm pursuing Mechanical Engineering.</dd>
+                <img id="school3" src="bphc.png" alt="BITS Pilani">
+            </dl>
+
+            <h3>The Projects I've worked on:</h3>
+                <h4>Creating a dataset:</h4>
+                <ul>
+                    <li>Created a dataset of 1000+ images of different human postures for a machine learning project.</li>
+                </ul>
+                <h4>Creating a WebPage:</h4>
+                <ul>
+                    <li>Developed a responsive webpage using HTML, CSS, and JavaScript.</li>
+                </ul>
+
+            <h3>My Future Goals:</h3>
+            <h4>Short term Goals:</h4>
+            <ul>
+                <li>Complete my degree with good grades.</li>
+                <li>Gain practical experience through internships.</li>
+                <li>Improve my coding skills and learn new programming languages.</li>
+            </ul>
+            <h4>Long term Goals:</h4>
+            <ul>
+                <li>Work in a reputable company as a software Engineer</li>
+            </ul>
+
+        </article>
+
+        <hr>
+
+        <article id="con">
+            <h2>Contact Me:</h2>
+            <ul>
+                <li>Phone: +91 8754291200</li>
+                <li>Address: 12A Nehru Street, Manavalanagar, Tiruvallur, Tamil Nadu</li>
+            </ul>
+            <p>You can contact me via email at <a href="mailto:nithishthanigaivel.2005@gmail.com">nithishthanigaivel.2005@gmail.com</a></p>
+        </article>
+
+        <hr>
+
+        <fieldset>
+        <h3>Please give me a feedback on my first webpage.</h3>
+
+        <legend><strong>Feedback</strong></legend>
+        
+        <form id="feedback_form" action="about:blank" method="post">
+            <p>Enter a feedback.</p>
+            <p>
+                <label for="feedback">Feedback</label>
+                <input type="text" name="feedback_text" id="feedback" placeholder="Enter your feedback here" required autocomplete="on" autofocus>
+            </p>
+            <p>Give a rating from 1 to 10.</p>
+            <p>
+                <label for="rating">Rating</label>
+                <input type="number" name="rating" id="rating" placeholder="Enter a number" required min="0" max="10" step="1">
+                
+            </p>
+            
+            <button id="Submit" onclick="submitted()" type="submit">Submit</button>
+            <button id="reset" type="reset">Reset</button>
+        </form>
+        </fieldset>
+        <hr>
+
+        <p>
+        &lt;&lt;&lt; &copy; <a href="https://www.instagram.com/nithish_0405/">2025 Nithish Thanigaivel</a> &gt;&gt;&gt;
+        </p>
+
+        <p>
+            <a href="#">Back to the top</a>
+        </p>
+    </body>
+</html>
