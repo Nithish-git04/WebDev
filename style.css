@@ -283,6 +283,12 @@ ul{
         font-size: 30px;
     }
 
+    a{
+        overflow-wrap: break-word;
+        word-break: break-all;
+        color: var(--primary-color);
+    }
+
     article ul, fieldset ul{
         list-style-position: inside;
         padding: 0;
