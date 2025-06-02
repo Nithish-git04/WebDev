@@ -1,4 +1,4 @@
-window.alert("Hello from JS!");
+// window.alert("Hello from JS!");
 
 function submitted() {
     document.getElementById("feedback_form").onsubmit = function() {
@@ -6,3 +6,5 @@ function submitted() {
         return false;
     }
 }
+
+console.log("This is a console log message from JS!");
