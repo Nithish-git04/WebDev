@@ -278,8 +278,7 @@ ul{
     margin-bottom: 10px;
 }
 
-/*
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 
     h1, h2, h3{
         font-size: 30px;
@@ -318,12 +317,16 @@ ul{
 
     body {
         margin: 0 auto;
-        font-size: 20px;
+        font-size: 18px;
         padding: 10px;
     }
 
     table {
         width: 90%;
+    }
+
+    tr{
+        font-size: 16px;
     }
 
     #top-nav {
@@ -350,4 +353,3 @@ ul{
         text-align: center;
     }
 }
-*/
