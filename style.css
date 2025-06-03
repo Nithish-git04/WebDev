@@ -100,6 +100,10 @@ hr {
     box-shadow: 2px 2px 8px grey; 
 }
 
+header{
+    text-align: center;
+}
+
 input {
     display: inline-flex;
     height: 25px;
